@@ -1,0 +1,100 @@
+srv-repchina-01 Failed password for invalid user guest from 10.0.0.2 port 3306 ssh2
+srv-repchina-01 Received disconnect from 192.168.1.101 port 3306:11: [preauth]
+srv-repchina-01 error: maximum authentication attempts exceeded for invalid user user from 172.16.0.1 port 22 ssh2 [preauth]
+srv-repchina-01 Disconnecting: Too many authentication failures for user from 192.168.1.100 port 3389 ssh2 [preauth]
+srv-repchina-01 Connection closed by 192.168.1.101 port 80 [preauth]
+srv-repchina-01 Firewall: *SYN_FLOOD* Detected from SRC=10.0.0.1
+srv-repchina-01 Firewall: *UDP_FLOOD* SRC=172.16.0.1 DST=10.10.10.10 LEN=508 TOS=0x00 TTL=64 ID=12345 PROTO=UDP SPT=50720 DPT=80 LEN=488
+srv-repchina-01 IDS: alert tcp any any -> 10.10.10.10 21 (msg:'FTP Brute Force attempt'; sid:1000001; rev:1;)
+srv-repchina-01 IDS: alert tcp any any -> 10.10.10.10 23 (msg:'TELNET Brute Force attempt'; sid:1000002; rev:1;)
+srv-repchina-01 IDS: alert tcp any any -> 10.10.10.10 443 (msg:'Detected SSL Renegotiation DoS Attack'; sid:1000003; rev:1;)
+srv-mthrrsia-04 Failed password for invalid user root from 172.16.0.1 port 80 ssh2
+srv-mthrrsia-04 Received disconnect from 192.168.1.100 port 3389:11: [preauth]
+srv-mthrrsia-04 error: maximum authentication attempts exceeded for invalid user test from 192.168.1.101 port 3389 ssh2 [preauth]
+srv-mthrrsia-04 Disconnecting: Too many authentication failures for root from 10.0.0.1 port 443 ssh2 [preauth]
+srv-mthrrsia-04 Connection closed by 192.168.1.101 port 443 [preauth]
+srv-mthrrsia-04 Firewall: *SYN_FLOOD* Detected from SRC=10.0.0.2
+srv-mthrrsia-04 Firewall: *UDP_FLOOD* SRC=10.0.0.2 DST=10.10.10.10 LEN=508 TOS=0x00 TTL=64 ID=12345 PROTO=UDP SPT=50720 DPT=80 LEN=488
+srv-mthrrsia-04 IDS: alert tcp any any -> 10.10.10.10 21 (msg:'FTP Brute Force attempt'; sid:1000001; rev:1;)
+srv-mthrrsia-04 IDS: alert tcp any any -> 10.10.10.10 23 (msg:'TELNET Brute Force attempt'; sid:1000002; rev:1;)
+srv-mthrrsia-04 IDS: alert tcp any any -> 10.10.10.10 443 (msg:'Detected SSL Renegotiation DoS Attack'; sid:1000003; rev:1;)
+srv-kngindia-07 Failed password for invalid user admin from 10.0.0.1 port 3306 ssh2
+srv-kngindia-07 Received disconnect from 192.168.1.100 port 22:11: [preauth]
+srv-kngindia-07 error: maximum authentication attempts exceeded for invalid user guest from 192.168.1.100 port 443 ssh2 [preauth]
+srv-kngindia-07 Disconnecting: Too many authentication failures for user from 192.168.1.100 port 3306 ssh2 [preauth]
+srv-kngindia-07 Connection closed by 10.0.0.1 port 22 [preauth]
+srv-kngindia-07 Firewall: *SYN_FLOOD* Detected from SRC=192.168.1.100
+srv-kngindia-07 Firewall: *UDP_FLOOD* SRC=10.0.0.2 DST=10.10.10.10 LEN=508 TOS=0x00 TTL=64 ID=12345 PROTO=UDP SPT=50720 DPT=80 LEN=488
+srv-kngindia-07 IDS: alert tcp any any -> 10.10.10.10 21 (msg:'FTP Brute Force attempt'; sid:1000001; rev:1;)
+srv-kngindia-07 IDS: alert tcp any any -> 10.10.10.10 23 (msg:'TELNET Brute Force attempt'; sid:1000002; rev:1;)
+srv-kngindia-07 IDS: alert tcp any any -> 10.10.10.10 443 (msg:'Detected SSL Renegotiation DoS Attack'; sid:1000003; rev:1;)
+clnt-scrptkdy-88 Failed password for invalid user root from 10.0.0.1 port 3306 ssh2
+clnt-scrptkdy-88 Received disconnect from 192.168.1.100 port 443:11: [preauth]
+clnt-scrptkdy-88 error: maximum authentication attempts exceeded for invalid user user from 172.16.0.1 port 3389 ssh2 [preauth]
+clnt-scrptkdy-88 Disconnecting: Too many authentication failures for test from 172.16.0.1 port 443 ssh2 [preauth]
+clnt-scrptkdy-88 Connection closed by 172.16.0.1 port 443 [preauth]
+clnt-scrptkdy-88 Firewall: *SYN_FLOOD* Detected from SRC=10.0.0.2
+clnt-scrptkdy-88 Firewall: *UDP_FLOOD* SRC=10.0.0.2 DST=10.10.10.10 LEN=508 TOS=0x00 TTL=64 ID=12345 PROTO=UDP SPT=50720 DPT=80 LEN=488
+clnt-scrptkdy-88 IDS: alert tcp any any -> 10.10.10.10 21 (msg:'FTP Brute Force attempt'; sid:1000001; rev:1;)
+clnt-scrptkdy-88 IDS: alert tcp any any -> 10.10.10.10 23 (msg:'TELNET Brute Force attempt'; sid:1000002; rev:1;)
+clnt-scrptkdy-88 IDS: alert tcp any any -> 10.10.10.10 443 (msg:'Detected SSL Renegotiation DoS Attack'; sid:1000003; rev:1;)
+srv-mthrrsia-01 Failed password for invalid user root from 192.168.1.101 port 3389 ssh2
+srv-mthrrsia-01 Received disconnect from 10.0.0.2 port 22:11: [preauth]
+srv-mthrrsia-01 error: maximum authentication attempts exceeded for invalid user test from 192.168.1.101 port 3389 ssh2 [preauth]
+srv-mthrrsia-01 Disconnecting: Too many authentication failures for root from 192.168.1.100 port 22 ssh2 [preauth]
+srv-mthrrsia-01 Connection closed by 192.168.1.101 port 3306 [preauth]
+srv-mthrrsia-01 Firewall: *SYN_FLOOD* Detected from SRC=10.0.0.2
+srv-mthrrsia-01 Firewall: *UDP_FLOOD* SRC=10.0.0.2 DST=10.10.10.10 LEN=508 TOS=0x00 TTL=64 ID=12345 PROTO=UDP SPT=50720 DPT=80 LEN=488
+srv-mthrrsia-01 IDS: alert tcp any any -> 10.10.10.10 21 (msg:'FTP Brute Force attempt'; sid:1000001; rev:1;)
+srv-mthrrsia-01 IDS: alert tcp any any -> 10.10.10.10 23 (msg:'TELNET Brute Force attempt'; sid:1000002; rev:1;)
+srv-mthrrsia-01 IDS: alert tcp any any -> 10.10.10.10 443 (msg:'Detected SSL Renegotiation DoS Attack'; sid:1000003; rev:1;)
+srv-masteriran-01 Failed password for invalid user root from 172.16.0.1 port 3306 ssh2
+srv-masteriran-01 Received disconnect from 10.0.0.1 port 22:11: [preauth]
+srv-masteriran-01 error: maximum authentication attempts exceeded for invalid user test from 192.168.1.101 port 3306 ssh2 [preauth]
+srv-masteriran-01 Disconnecting: Too many authentication failures for guest from 10.0.0.2 port 3306 ssh2 [preauth]
+srv-masteriran-01 Connection closed by 192.168.1.100 port 22 [preauth]
+srv-masteriran-01 Firewall: *SYN_FLOOD* Detected from SRC=192.168.1.101
+srv-masteriran-01 Firewall: *UDP_FLOOD* SRC=10.0.0.1 DST=10.10.10.10 LEN=508 TOS=0x00 TTL=64 ID=12345 PROTO=UDP SPT=50720 DPT=80 LEN=488
+srv-masteriran-01 IDS: alert tcp any any -> 10.10.10.10 21 (msg:'FTP Brute Force attempt'; sid:1000001; rev:1;)
+srv-masteriran-01 IDS: alert tcp any any -> 10.10.10.10 23 (msg:'TELNET Brute Force attempt'; sid:1000002; rev:1;)
+srv-masteriran-01 IDS: alert tcp any any -> 10.10.10.10 443 (msg:'Detected SSL Renegotiation DoS Attack'; sid:1000003; rev:1;)
+srv-kngindia-03 Failed password for invalid user guest from 172.16.0.1 port 3306 ssh2
+srv-kngindia-03 Received disconnect from 172.16.0.1 port 80:11: [preauth]
+srv-kngindia-03 error: maximum authentication attempts exceeded for invalid user test from 192.168.1.101 port 80 ssh2 [preauth]
+srv-kngindia-03 Disconnecting: Too many authentication failures for admin from 172.16.0.1 port 22 ssh2 [preauth]
+srv-kngindia-03 Connection closed by 192.168.1.100 port 80 [preauth]
+srv-kngindia-03 Firewall: *SYN_FLOOD* Detected from SRC=172.16.0.1
+srv-kngindia-03 Firewall: *UDP_FLOOD* SRC=10.0.0.1 DST=10.10.10.10 LEN=508 TOS=0x00 TTL=64 ID=12345 PROTO=UDP SPT=50720 DPT=80 LEN=488
+srv-kngindia-03 IDS: alert tcp any any -> 10.10.10.10 21 (msg:'FTP Brute Force attempt'; sid:1000001; rev:1;)
+srv-kngindia-03 IDS: alert tcp any any -> 10.10.10.10 23 (msg:'TELNET Brute Force attempt'; sid:1000002; rev:1;)
+srv-kngindia-03 IDS: alert tcp any any -> 10.10.10.10 443 (msg:'Detected SSL Renegotiation DoS Attack'; sid:1000003; rev:1;)
+srv-masteriran-07 Failed password for invalid user guest from 172.16.0.1 port 80 ssh2
+srv-masteriran-07 Received disconnect from 192.168.1.101 port 3389:11: [preauth]
+srv-masteriran-07 error: maximum authentication attempts exceeded for invalid user admin from 10.0.0.1 port 80 ssh2 [preauth]
+srv-masteriran-07 Disconnecting: Too many authentication failures for test from 172.16.0.1 port 3306 ssh2 [preauth]
+srv-masteriran-07 Connection closed by 10.0.0.1 port 3306 [preauth]
+srv-masteriran-07 Firewall: *SYN_FLOOD* Detected from SRC=172.16.0.1
+srv-masteriran-07 Firewall: *UDP_FLOOD* SRC=10.0.0.1 DST=10.10.10.10 LEN=508 TOS=0x00 TTL=64 ID=12345 PROTO=UDP SPT=50720 DPT=80 LEN=488
+srv-masteriran-07 IDS: alert tcp any any -> 10.10.10.10 21 (msg:'FTP Brute Force attempt'; sid:1000001; rev:1;)
+srv-masteriran-07 IDS: alert tcp any any -> 10.10.10.10 23 (msg:'TELNET Brute Force attempt'; sid:1000002; rev:1;)
+srv-masteriran-07 IDS: alert tcp any any -> 10.10.10.10 443 (msg:'Detected SSL Renegotiation DoS Attack'; sid:1000003; rev:1;)
+clnt-scrptkdy-22 Failed password for invalid user user from 192.168.1.100 port 3389 ssh2
+clnt-scrptkdy-22 Received disconnect from 172.16.0.1 port 22:11: [preauth]
+clnt-scrptkdy-22 error: maximum authentication attempts exceeded for invalid user admin from 192.168.1.100 port 443 ssh2 [preauth]
+clnt-scrptkdy-22 Disconnecting: Too many authentication failures for test from 10.0.0.1 port 3306 ssh2 [preauth]
+clnt-scrptkdy-22 Connection closed by 10.0.0.1 port 443 [preauth]
+clnt-scrptkdy-22 Firewall: *SYN_FLOOD* Detected from SRC=10.0.0.1
+clnt-scrptkdy-22 Firewall: *UDP_FLOOD* SRC=172.16.0.1 DST=10.10.10.10 LEN=508 TOS=0x00 TTL=64 ID=12345 PROTO=UDP SPT=50720 DPT=80 LEN=488
+clnt-scrptkdy-22 IDS: alert tcp any any -> 10.10.10.10 21 (msg:'FTP Brute Force attempt'; sid:1000001; rev:1;)
+clnt-scrptkdy-22 IDS: alert tcp any any -> 10.10.10.10 23 (msg:'TELNET Brute Force attempt'; sid:1000002; rev:1;)
+clnt-scrptkdy-22 IDS: alert tcp any any -> 10.10.10.10 443 (msg:'Detected SSL Renegotiation DoS Attack'; sid:1000003; rev:1;)
+srv-repchina-010 Failed password for invalid user guest from 10.0.0.1 port 22 ssh2
+srv-repchina-010 Received disconnect from 10.0.0.1 port 22:11: [preauth]
+srv-repchina-010 error: maximum authentication attempts exceeded for invalid user guest from 192.168.1.101 port 80 ssh2 [preauth]
+srv-repchina-010 Disconnecting: Too many authentication failures for user from 172.16.0.1 port 3389 ssh2 [preauth]
+srv-repchina-010 Connection closed by 10.0.0.2 port 443 [preauth]
+srv-repchina-010 Firewall: *SYN_FLOOD* Detected from SRC=192.168.1.101
+srv-repchina-010 Firewall: *UDP_FLOOD* SRC=192.168.1.100 DST=10.10.10.10 LEN=508 TOS=0x00 TTL=64 ID=12345 PROTO=UDP SPT=50720 DPT=80 LEN=488
+srv-repchina-010 IDS: alert tcp any any -> 10.10.10.10 21 (msg:'FTP Brute Force attempt'; sid:1000001; rev:1;)
+srv-repchina-010 IDS: alert tcp any any -> 10.10.10.10 23 (msg:'TELNET Brute Force attempt'; sid:1000002; rev:1;)
+srv-repchina-010 IDS: alert tcp any any -> 10.10.10.10 443 (msg:'Detected SSL Renegotiation DoS Attack'; sid:1000003; rev:1;)
